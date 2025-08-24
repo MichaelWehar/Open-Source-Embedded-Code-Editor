@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <link href="editor.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="editor1-container"></div>
+    <script src="settings.js"></script>
+    <script src="editor.js"></script>
+    <script>
+      // Create editor
+      let eName = "editor1";
+      generate_editor(eName + "-container", eName);
+      customizeEditor(eName, mySettings);
+    </script>
+  </body>
+</html>
